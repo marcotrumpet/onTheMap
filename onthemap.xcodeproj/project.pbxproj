@@ -8,22 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		8825EFDC24B5CA2100160A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFDB24B5CA2100160A1F /* AppDelegate.swift */; };
-		8825EFDE24B5CA2100160A1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFDD24B5CA2100160A1F /* SceneDelegate.swift */; };
-		8825EFE024B5CA2100160A1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFDF24B5CA2100160A1F /* ViewController.swift */; };
-		8825EFE324B5CA2100160A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8825EFE124B5CA2100160A1F /* Main.storyboard */; };
-		8825EFE524B5CA2200160A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8825EFE424B5CA2200160A1F /* Assets.xcassets */; };
-		8825EFE824B5CA2200160A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8825EFE624B5CA2200160A1F /* LaunchScreen.storyboard */; };
+		8825F00D24B5CC9D00160A1F /* GetStudentInformationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFF124B5CC9C00160A1F /* GetStudentInformationResponse.swift */; };
+		8825F00E24B5CC9D00160A1F /* POSTsessionIdResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFF224B5CC9C00160A1F /* POSTsessionIdResponse.swift */; };
+		8825F00F24B5CC9D00160A1F /* GetStudentsInformationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFF324B5CC9C00160A1F /* GetStudentsInformationResponse.swift */; };
+		8825F01024B5CC9D00160A1F /* POSTStudentLocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFF524B5CC9C00160A1F /* POSTStudentLocationRequest.swift */; };
+		8825F01124B5CC9D00160A1F /* POSTsessionIdRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFF624B5CC9C00160A1F /* POSTsessionIdRequest.swift */; };
+		8825F01224B5CC9D00160A1F /* StudentsInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFF824B5CC9C00160A1F /* StudentsInformation.swift */; };
+		8825F01324B5CC9D00160A1F /* UdacityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFFA24B5CC9C00160A1F /* UdacityClient.swift */; };
+		8825F01424B5CC9D00160A1F /* AddPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFFC24B5CC9C00160A1F /* AddPinViewController.swift */; };
+		8825F01524B5CC9D00160A1F /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFFD24B5CC9C00160A1F /* TabViewController.swift */; };
+		8825F01624B5CC9D00160A1F /* MapViewController-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFFE24B5CC9C00160A1F /* MapViewController-Extension.swift */; };
+		8825F01724B5CC9D00160A1F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825EFFF24B5CC9C00160A1F /* MapViewController.swift */; };
+		8825F01824B5CC9D00160A1F /* UIViewController-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00024B5CC9C00160A1F /* UIViewController-Extension.swift */; };
+		8825F01924B5CC9D00160A1F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00124B5CC9C00160A1F /* TableViewController.swift */; };
+		8825F01A24B5CC9D00160A1F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00224B5CC9C00160A1F /* LoginViewController.swift */; };
+		8825F01B24B5CC9D00160A1F /* LoginViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00324B5CC9C00160A1F /* LoginViewControllerExtension.swift */; };
+		8825F01C24B5CC9D00160A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8825F00424B5CC9C00160A1F /* Assets.xcassets */; };
+		8825F01D24B5CC9D00160A1F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00624B5CC9D00160A1F /* UIColorExtension.swift */; };
+		8825F01E24B5CC9D00160A1F /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00724B5CC9D00160A1F /* UITextFieldExtension.swift */; };
+		8825F01F24B5CC9D00160A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8825F00824B5CC9D00160A1F /* LaunchScreen.storyboard */; };
+		8825F02024B5CC9D00160A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8825F00A24B5CC9D00160A1F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8825EFD824B5CA2100160A1F /* onthemap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onthemap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8825EFDB24B5CA2100160A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8825EFDD24B5CA2100160A1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8825EFDF24B5CA2100160A1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8825EFE224B5CA2100160A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8825EFE424B5CA2200160A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8825EFE724B5CA2200160A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8825EFE924B5CA2200160A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8825EFF124B5CC9C00160A1F /* GetStudentInformationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStudentInformationResponse.swift; sourceTree = "<group>"; };
+		8825EFF224B5CC9C00160A1F /* POSTsessionIdResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POSTsessionIdResponse.swift; sourceTree = "<group>"; };
+		8825EFF324B5CC9C00160A1F /* GetStudentsInformationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStudentsInformationResponse.swift; sourceTree = "<group>"; };
+		8825EFF524B5CC9C00160A1F /* POSTStudentLocationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POSTStudentLocationRequest.swift; sourceTree = "<group>"; };
+		8825EFF624B5CC9C00160A1F /* POSTsessionIdRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POSTsessionIdRequest.swift; sourceTree = "<group>"; };
+		8825EFF824B5CC9C00160A1F /* StudentsInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsInformation.swift; sourceTree = "<group>"; };
+		8825EFFA24B5CC9C00160A1F /* UdacityClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdacityClient.swift; sourceTree = "<group>"; };
+		8825EFFC24B5CC9C00160A1F /* AddPinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPinViewController.swift; sourceTree = "<group>"; };
+		8825EFFD24B5CC9C00160A1F /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		8825EFFE24B5CC9C00160A1F /* MapViewController-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapViewController-Extension.swift"; sourceTree = "<group>"; };
+		8825EFFF24B5CC9C00160A1F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8825F00024B5CC9C00160A1F /* UIViewController-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController-Extension.swift"; sourceTree = "<group>"; };
+		8825F00124B5CC9C00160A1F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8825F00224B5CC9C00160A1F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8825F00324B5CC9C00160A1F /* LoginViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerExtension.swift; sourceTree = "<group>"; };
+		8825F00424B5CC9C00160A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/IOS-nanodegree-OnTheMap-master/OnTheMap/Assets.xcassets"; sourceTree = "<group>"; };
+		8825F00624B5CC9D00160A1F /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		8825F00724B5CC9D00160A1F /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		8825F00924B5CC9D00160A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8825F00B24B5CC9D00160A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8825F00C24B5CC9D00160A1F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../Downloads/IOS-nanodegree-OnTheMap-master/OnTheMap/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +88,86 @@
 			isa = PBXGroup;
 			children = (
 				8825EFDB24B5CA2100160A1F /* AppDelegate.swift */,
-				8825EFDD24B5CA2100160A1F /* SceneDelegate.swift */,
-				8825EFDF24B5CA2100160A1F /* ViewController.swift */,
-				8825EFE124B5CA2100160A1F /* Main.storyboard */,
-				8825EFE424B5CA2200160A1F /* Assets.xcassets */,
-				8825EFE624B5CA2200160A1F /* LaunchScreen.storyboard */,
+				8825F00424B5CC9C00160A1F /* Assets.xcassets */,
+				8825EFFB24B5CC9C00160A1F /* Controllers */,
+				8825F00C24B5CC9D00160A1F /* Info.plist */,
+				8825EFEF24B5CC9C00160A1F /* Model */,
+				8825F00524B5CC9D00160A1F /* View */,
 				8825EFE924B5CA2200160A1F /* Info.plist */,
 			);
 			path = onthemap;
+			sourceTree = "<group>";
+		};
+		8825EFEF24B5CC9C00160A1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8825EFF024B5CC9C00160A1F /* Response */,
+				8825EFF424B5CC9C00160A1F /* Request */,
+				8825EFF724B5CC9C00160A1F /* Data */,
+				8825EFF924B5CC9C00160A1F /* Client */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8825EFF024B5CC9C00160A1F /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				8825EFF124B5CC9C00160A1F /* GetStudentInformationResponse.swift */,
+				8825EFF224B5CC9C00160A1F /* POSTsessionIdResponse.swift */,
+				8825EFF324B5CC9C00160A1F /* GetStudentsInformationResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		8825EFF424B5CC9C00160A1F /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				8825EFF524B5CC9C00160A1F /* POSTStudentLocationRequest.swift */,
+				8825EFF624B5CC9C00160A1F /* POSTsessionIdRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8825EFF724B5CC9C00160A1F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8825EFF824B5CC9C00160A1F /* StudentsInformation.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8825EFF924B5CC9C00160A1F /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				8825EFFA24B5CC9C00160A1F /* UdacityClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		8825EFFB24B5CC9C00160A1F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8825EFFC24B5CC9C00160A1F /* AddPinViewController.swift */,
+				8825EFFD24B5CC9C00160A1F /* TabViewController.swift */,
+				8825EFFE24B5CC9C00160A1F /* MapViewController-Extension.swift */,
+				8825EFFF24B5CC9C00160A1F /* MapViewController.swift */,
+				8825F00024B5CC9C00160A1F /* UIViewController-Extension.swift */,
+				8825F00124B5CC9C00160A1F /* TableViewController.swift */,
+				8825F00224B5CC9C00160A1F /* LoginViewController.swift */,
+				8825F00324B5CC9C00160A1F /* LoginViewControllerExtension.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8825F00524B5CC9D00160A1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8825F00624B5CC9D00160A1F /* UIColorExtension.swift */,
+				8825F00724B5CC9D00160A1F /* UITextFieldExtension.swift */,
+				8825F00824B5CC9D00160A1F /* LaunchScreen.storyboard */,
+				8825F00A24B5CC9D00160A1F /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +228,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8825EFE824B5CA2200160A1F /* LaunchScreen.storyboard in Resources */,
-				8825EFE524B5CA2200160A1F /* Assets.xcassets in Resources */,
-				8825EFE324B5CA2100160A1F /* Main.storyboard in Resources */,
+				8825F01C24B5CC9D00160A1F /* Assets.xcassets in Resources */,
+				8825F02024B5CC9D00160A1F /* Main.storyboard in Resources */,
+				8825F01F24B5CC9D00160A1F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +241,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8825EFE024B5CA2100160A1F /* ViewController.swift in Sources */,
+				8825F01B24B5CC9D00160A1F /* LoginViewControllerExtension.swift in Sources */,
+				8825F01524B5CC9D00160A1F /* TabViewController.swift in Sources */,
+				8825F01324B5CC9D00160A1F /* UdacityClient.swift in Sources */,
+				8825F01424B5CC9D00160A1F /* AddPinViewController.swift in Sources */,
+				8825F01D24B5CC9D00160A1F /* UIColorExtension.swift in Sources */,
+				8825F01E24B5CC9D00160A1F /* UITextFieldExtension.swift in Sources */,
 				8825EFDC24B5CA2100160A1F /* AppDelegate.swift in Sources */,
-				8825EFDE24B5CA2100160A1F /* SceneDelegate.swift in Sources */,
+				8825F00F24B5CC9D00160A1F /* GetStudentsInformationResponse.swift in Sources */,
+				8825F00D24B5CC9D00160A1F /* GetStudentInformationResponse.swift in Sources */,
+				8825F01824B5CC9D00160A1F /* UIViewController-Extension.swift in Sources */,
+				8825F01224B5CC9D00160A1F /* StudentsInformation.swift in Sources */,
+				8825F01024B5CC9D00160A1F /* POSTStudentLocationRequest.swift in Sources */,
+				8825F01124B5CC9D00160A1F /* POSTsessionIdRequest.swift in Sources */,
+				8825F01924B5CC9D00160A1F /* TableViewController.swift in Sources */,
+				8825F00E24B5CC9D00160A1F /* POSTsessionIdResponse.swift in Sources */,
+				8825F01A24B5CC9D00160A1F /* LoginViewController.swift in Sources */,
+				8825F01624B5CC9D00160A1F /* MapViewController-Extension.swift in Sources */,
+				8825F01724B5CC9D00160A1F /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8825EFE124B5CA2100160A1F /* Main.storyboard */ = {
+		8825F00824B5CC9D00160A1F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8825EFE224B5CA2100160A1F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8825EFE624B5CA2200160A1F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8825EFE724B5CA2200160A1F /* Base */,
+				8825F00924B5CC9D00160A1F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8825F00A24B5CC9D00160A1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8825F00B24B5CC9D00160A1F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
