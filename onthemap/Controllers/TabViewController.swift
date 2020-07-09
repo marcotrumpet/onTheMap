@@ -24,7 +24,7 @@ class TabViewController: UITabBarController {
         navigationController?.isNavigationBarHidden = false
         let logoutBarButtonItem = UIBarButtonItem(title: "Logout", style: .done, target: self, action: #selector(logout))
         
-        let addBarButtonItem = UIBarButtonItem(image: UIImage(named: "pin.png"), style:.plain, target: self, action:  #selector(addMarker))
+        let addBarButtonItem = UIBarButtonItem(image: UIImage(named: "icon_pin.png"), style:.plain, target: self, action:  #selector(addMarker))
         
         
         navigationItem.leftBarButtonItem  = logoutBarButtonItem

@@ -40,7 +40,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapIcon" translatesAutoresizingMaskIntoConstraints="NO" id="D84-Fh-1ag">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_world" translatesAutoresizingMaskIntoConstraints="NO" id="D84-Fh-1ag">
                                 <rect key="frame" x="-232.5" y="94" width="840" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="Haa-lh-c0e"/>
@@ -359,7 +359,7 @@ Today?</string>
         </scene>
     </scenes>
     <resources>
-        <image name="mapIcon" width="840" height="859"/>
+        <image name="icon_world" width="52" height="67"/>
         <image name="mapTabIcon" width="25" height="25"/>
         <image name="table" width="30" height="30"/>
     </resources>
