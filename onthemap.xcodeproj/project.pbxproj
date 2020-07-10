@@ -23,11 +23,11 @@
 		8825F01924B5CC9D00160A1F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00124B5CC9C00160A1F /* TableViewController.swift */; };
 		8825F01A24B5CC9D00160A1F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00224B5CC9C00160A1F /* LoginViewController.swift */; };
 		8825F01B24B5CC9D00160A1F /* LoginViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00324B5CC9C00160A1F /* LoginViewControllerExtension.swift */; };
-		8825F01C24B5CC9D00160A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8825F00424B5CC9C00160A1F /* Assets.xcassets */; };
 		8825F01D24B5CC9D00160A1F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00624B5CC9D00160A1F /* UIColorExtension.swift */; };
 		8825F01E24B5CC9D00160A1F /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825F00724B5CC9D00160A1F /* UITextFieldExtension.swift */; };
 		8825F01F24B5CC9D00160A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8825F00824B5CC9D00160A1F /* LaunchScreen.storyboard */; };
 		8825F02024B5CC9D00160A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8825F00A24B5CC9D00160A1F /* Main.storyboard */; };
+		884C379424B856940080C141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884C379324B856940080C141 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,12 +49,12 @@
 		8825F00124B5CC9C00160A1F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		8825F00224B5CC9C00160A1F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8825F00324B5CC9C00160A1F /* LoginViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerExtension.swift; sourceTree = "<group>"; };
-		8825F00424B5CC9C00160A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/IOS-nanodegree-OnTheMap-master/OnTheMap/Assets.xcassets"; sourceTree = "<group>"; };
 		8825F00624B5CC9D00160A1F /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		8825F00724B5CC9D00160A1F /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		8825F00924B5CC9D00160A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8825F00B24B5CC9D00160A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8825F00C24B5CC9D00160A1F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../Downloads/IOS-nanodegree-OnTheMap-master/OnTheMap/Info.plist"; sourceTree = "<group>"; };
+		884C379324B856940080C141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				8825EFDB24B5CA2100160A1F /* AppDelegate.swift */,
-				8825F00424B5CC9C00160A1F /* Assets.xcassets */,
+				884C379324B856940080C141 /* Assets.xcassets */,
 				8825EFFB24B5CC9C00160A1F /* Controllers */,
 				8825F00C24B5CC9D00160A1F /* Info.plist */,
 				8825EFEF24B5CC9C00160A1F /* Model */,
@@ -228,8 +228,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8825F01C24B5CC9D00160A1F /* Assets.xcassets in Resources */,
 				8825F02024B5CC9D00160A1F /* Main.storyboard in Resources */,
+				884C379424B856940080C141 /* Assets.xcassets in Resources */,
 				8825F01F24B5CC9D00160A1F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

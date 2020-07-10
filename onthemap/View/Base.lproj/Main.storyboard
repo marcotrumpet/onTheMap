@@ -331,14 +331,14 @@ Today?</string>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hQ5-lg-9FQ">
-                                            <rect key="frame" x="56" y="0.0" width="303" height="43.5"/>
+                                            <rect key="frame" x="97" y="0.0" width="262" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="mapTabIcon" id="0Xq-fC-Ii4">
-                                            <rect key="frame" x="16" y="9" width="25" height="25"/>
+                                            <rect key="frame" x="16" y="0.0" width="66" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
                                     </subviews>
@@ -360,7 +360,7 @@ Today?</string>
     </scenes>
     <resources>
         <image name="icon_world" width="52" height="67"/>
-        <image name="mapTabIcon" width="25" height="25"/>
-        <image name="table" width="30" height="30"/>
+        <image name="mapTabIcon" width="75" height="50"/>
+        <image name="table" width="75" height="50"/>
     </resources>
 </document>
